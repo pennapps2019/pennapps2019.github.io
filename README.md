@@ -1,5 +1,10 @@
 # <img src="./readme-img/icon.png" width="40"> Template Project Showcase
 
+[![Licence](
+    https://img.shields.io/github/license/pennapps2019/pennapps2019.github.io)](
+        https://github.com/pennapps2019/pennapps2019.github.io
+)
+
 Template HTML, CSS, and Bootstrap website to showcase a project.
 
 View the website here: LINK
