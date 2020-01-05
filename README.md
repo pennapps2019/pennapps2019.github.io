@@ -1,4 +1,6 @@
-# <img src="./readme-img/icon.png" width="40"> Template Project Showcase
+![StillSpace Logo](./readme-img/icon.png)
+
+___
 
 [![Licence](
     https://img.shields.io/github/license/pennapps2019/pennapps2019.github.io)](
