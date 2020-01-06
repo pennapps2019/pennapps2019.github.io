@@ -1,18 +1,19 @@
 ![StillSpace Logo](./readme-img/icon.png)
 
 # Website
-___
 
 [![Licence](
     https://img.shields.io/github/license/pennapps2019/pennapps2019.github.io)](
         https://github.com/pennapps2019/pennapps2019.github.io
 )
 
-Template HTML, CSS, and Bootstrap website to showcase a project.
+HTML, CSS, and Bootstrap website to showcase the StillSpace project.
 
-View the website here: LINK
+View the website here: https://pennapps2019.github.io/
 
-Project created by...
+Download the Android application from Google Play here: https://play.google.com/store/apps/details?id=com.pennapps2019.application
+
+This project was created by Funing Yang, Michelle Swolfs, Joseph Chao, and Jeffrey Leung.
 
 ___
 
