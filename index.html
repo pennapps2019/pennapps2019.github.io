@@ -61,6 +61,8 @@
 
     <img class="img-fluid d-block mx-auto mb-5 pt-5" src="res/img/team/presenting.jpg" alt="Team picture">
 
+    <hr>
+
     <h1 class="my-4">The Inspiration</h1>
     <p>
       Inspiration...
@@ -71,22 +73,11 @@
       Our solution is...
     </p>
 
+    <!-- Screenshots here -->
+
     <h2 class="my-4">The System</h2>
     <p>
       Description...
-    </p>
-
-    <h3 class="my-4">Web Application (Angular & Bootstrap)</h3>
-    <div class="d-block mx-auto py-3" style="text-align: center;">
-      <a href="https://angular.io/" target="_blank">
-        <img class="d-inline px-4 company-logo" src="res/img/tech/angular.png">
-      </a>
-      <a href="https://getbootstrap.com/" target="_blank">
-        <img class="d-inline px-4 company-logo" src="res/img/tech/bootstrap.svg">
-      </a>
-    </div>
-    <p>
-      The front end of the web application is built using <a href="https://angular.io/" target="_blank"><strong>Angular</strong></a>, to create the single-page application with styling and scripting, and <a href="https://getbootstrap.com/" target="_blank"><strong>Bootstrap</strong></a> to provide styling support. These provided a strong and flexible platform on which to build the application.
     </p>
 
     <h3 class="my-4">Android Application</h3>
@@ -94,49 +85,46 @@
       <img class="img-fluid d-block mx-auto py-4 company-logo" src="res/img/tech/android.svg" alt="Android logo">
     </a>
     <p>
-      The mobile application on Android...
+      The mobile application on <a href="https://www.android.com/" target="_blank"><strong>Android</strong></a> was the user-facing section of StillSpace, providing a locator and predictor for study space availability as well as tracking location data during studying.
     </p>
-
-    <h3 class="py-3">Server (Node.js & Express)</h3>
-    <div class="d-block mx-auto py-3" style="text-align: center;">
-      <a href="https://nodejs.org/" target="_blank">
-        <img class="d-inline px-4 company-logo" src="res/img/tech/nodejs.png">
-      </a>
-      <a href="https://expressjs.com/" target="_blank">
-        <img class="d-inline px-4 company-logo" src="res/img/tech/express.png">
-      </a>
-    </div>
     <p>
-      The back end server was written in <a href="https://nodejs.org/" target="_blank"><strong>Node.js</strong></a> with the <a href="https://expressjs.com/" target="_blank"><strong>Express</strong></a> framework. It provides data storage, processing, and communication in tandem with the front end component.
+      Download the application on the <a href="https://play.google.com/store/apps/details?id=com.pennapps2019.application" target="_blank"><strong>Google Play Store here</strong></a>.
     </p>
-
-    <h3 class="my-4">Server (Golang)</h3>
-    <a href="https://golang.org/" target="_blank">
-      <img class="img-fluid d-block mx-auto company-logo" src="res/img/tech/golang.png" alt="Golang logo">
-    </a>
     <p>
-      The backend server was written in <a href="https://golang.org/" target="_blank"><strong>Golang</strong></a>. It provides data storage, processing, and communication in tandem with the front end component.
+      The application utilizes Google Location Services as well as <a href="https://developers.google.com/maps/documentation/android-sdk/utility/heatmap" target="_blank"><strong>Google Maps Heatmap Utility</strong></a>, an advanced and less-known Play Services API.
     </p>
-
-    <h3 class="my-4">Infrastructure (Amazon Web Services)</h3>
-    <a href="https://aws.amazon.com/" target="_blank">
-      <img class="img-fluid d-block mx-auto py-4 company-logo" src="res/img/tech/aws.png" alt="Amazon Web Services Logo">
-    </a>
     <p>
-      To host the server, <a href="https://aws.amazon.com/" target="_blank"><strong>Amazon Web Services</strong></a> was chosen.
+      The map view is set to automatically display Towne Building in the Engineering Division at the University of Pennsylvania, as this was the location of the hackathon and demo.
     </p>
 
-    <h3 class="py-3">Infrastructure (Google Cloud Platform & Google App Engine)</h3>
-    <div class="d-block mx-auto py-3" style="text-align: center;">
-      <a href="https://cloud.google.com/" target="_blank">
-        <img class="d-inline px-4 company-logo" src="res/img/tech/google-cloud-platform.png">
+    <h3 class="my-4">Graphic Design (Figma and Zeplin)</h3>
+    <div class="d-block mx-auto py-4" style="text-align: center;">
+      <a href="https://www.figma.com/" target="_blank">
+        <img class="d-inline px-4 company-logo" src="res/img/tech/figma.png">
       </a>
-      <a href="https://cloud.google.com/appengine/" target="_blank">
-        <img class="d-inline px-4 company-logo" src="res/img/tech/google-app-engine.png">
+      <a href="https://zeplin.io/" target="_blank">
+        <img class="d-inline px-4 company-logo" src="res/img/tech/zeplin.png">
       </a>
     </div>
     <p>
-      To host the server, <a href="https://cloud.google.com/" target="_blank"><strong>Google Cloud Platform</strong></a> was chosen.
+      To visually understand how users would navigate and use the application, graphic designs were created using <a href="https://www.figma.com/" target="_blank"><strong>Figma</strong></a> and passed to the developers with <a href="https://zeplin.io/" target="_blank"><strong>Zeplin</strong></a>.
+    </p>
+
+    <h3 class="my-4">Machine Learning (Amazon Web Services Forecast)</h3>
+    <a href="https://aws.amazon.com/forecast/" target="_blank">
+      <img class="img-fluid d-block mx-auto pt-2 pb-5 company-logo" src="res/img/tech/aws.png" alt="Amazon Forecast Logo">
+    </a>
+    <p>
+      The machine learning component of StillSpace utilizes <a href="https://aws.amazon.com/forecast/" target="_blank"><strong>Amazon Web Services Forecast</strong></a>, an online machine learning service which processes trends in time series data to predict future forecasts.
+    </p>
+    <p>
+      Using Amazon Forecast also entailed creating an <a href="https://aws.amazon.com/s3/" target="_blank"><strong>Amazon S3</strong></a> bucket which contained a CSV file to be imported.
+    </p>
+    <p>
+      We encountered heavy limitations when working with the machine learning framework. Firstly, a sufficient amount of suitable sample data which mimicked actual conditions was incredibly difficult to generate. Second, there was not nearly enough time and data to train the network sufficiently well in a single weekend. Thirdly, we initially hoped on having the data be automatically uploaded to the server and to configure the machine learning to be run on the dataset on a set recurring schedule. Unfortunately, the Amazon Forecast API is still greatly under development, and did not have this capability. Instead, each dataset needed to be run automatically using the web console.
+    </p>
+    <p>
+      The services available for machine learning are still in the process of being developed and made ready for public use but, when ready, they will empower even students to easily be able to find valuable trends across vast datasets.
     </p>
 
     <h3 class="py-3">Pitch</h3>
@@ -144,6 +132,8 @@
       Watch a video of our pitch here:
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Azbyz3Crxho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <hr>
 
     <h1 class="my-4">About the Team</h1>
     <p></p>
