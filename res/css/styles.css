@@ -1,5 +1,5 @@
 :root {
-  --color-accent: #4d92ce;
+  --color-accent: #0A5E28;
   --color-offblack: #333;
   --color-offwhite: #f9f9f9;
 }
@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6 {
   color: var(--color-offblack);
 }
 
-#accent {
+.accent {
   font-weight: bold;
   color: var(--color-accent);
 }
