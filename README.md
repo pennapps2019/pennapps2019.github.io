@@ -1,4 +1,6 @@
-# <img src="./readme-img/icon.jpg" width="40"> Website
+![](readme-img/logo-with-text.png)
+
+# Website
 
 [![Licence](
     https://img.shields.io/github/license/pennapps2019/pennapps2019.github.io)](
